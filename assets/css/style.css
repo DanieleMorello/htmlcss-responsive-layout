@@ -24,6 +24,11 @@ body
 /* #endregion Common */
 
 /* #region Utilities */
+.text-center
+{
+  text-align: center;
+}
+
 .container 
 {
   width: 85%;
@@ -84,6 +89,30 @@ body
 .debug #planning .card {
   border: 1px dashed black;
 }
+
+.debug #testimonials .col_12 
+{
+  border: 1px dashed black;
+  height: 500px;
+}
+
+.debug #testimonials .card> 
+{
+  border: 1px dashed black;
+  height: 400px;
+}
+
+.debug #benefit .col_12, #benefit .col_md_6, #benefit .col_lg_4
+{
+  border: 1px dashed black;
+  height: 400px;
+}
+
+.debug #about .col_12, .debug #about .col_md_8, .debug #about .col_md_4
+{
+  border: 1px dashed black;
+  height: 400px;
+}
 /* #endregion Debug */
 
 /* #region Header */
@@ -112,9 +141,34 @@ body
   margin-top: 3rem;
 }
 
-/* #planning .card {
+#planning .card {
   margin-top: 3rem;
-} */
+}
+
+/* Testimonials */
+#testimonials > strong
+{
+  margin-top: 1rem;
+  font-size: 0.6rem;
+}
+
+#testimonials  h2
+{
+  margin-top: 1rem;
+  font-size: 1.9rem;
+  color: var(--primary);
+  margin-bottom: 2rem;
+}
+
+#testimonials p
+{
+  font-size: 1rem;
+}
+
+/* Benefit */
+#benefit {
+  background-color: var(--primary);
+}
 /* #endregion Main */
 
 /* #region Footer */
@@ -137,6 +191,11 @@ body
   width: calc(100% / 12 * 4);
 }
 
+.col_md_6
+{
+  width: calc(100% / 12 * 6);
+}
+
 .col_md_8
 {
   width: calc(100% / 12 * 8);
@@ -157,6 +216,11 @@ body
 .container
 {
   width: 70%;
+}
+
+.col_lg_4 
+{
+  width: calc(100% / 12 * 4);
 }
 
 .col_lg_6 
