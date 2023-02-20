@@ -113,6 +113,18 @@ body
   border: 1px dashed black;
   height: 400px;
 }
+
+.debug #price .col_12
+{
+  border: 1px dashed black;
+  height: 400px;
+}
+
+.debug #site_footer .col_12
+{
+  border: 1px dashed white;
+  height: 400px;
+}
 /* #endregion Debug */
 
 /* #region Header */
@@ -169,9 +181,22 @@ body
 #benefit {
   background-color: var(--primary);
 }
+
+/* About */
+
+
+/* Price */
+#price
+{
+  background-color: var(--primary);
+}
 /* #endregion Main */
 
 /* #region Footer */
+#site_footer {
+  background-color: var(--dark);
+  color: var(--light);
+}
 /* #endregion Footer */
 
 /* #region Media query */
