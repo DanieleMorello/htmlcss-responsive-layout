@@ -14,9 +14,33 @@
   --dark: #333333;
   --light: #ffffff;
 } 
+
+body {
+  font-family: 'PT Sans', sans-serif;
+}
+
 /* #endregion Common */
 
 /* #region Utilities */
+.container {
+  width: 80%;
+  max-width: 1152px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 --1rem;
+}
+
+[class^="col_"] {
+  padding: 0 1rem;
+}
+
+.col {
+
+}
 /* #endregion Utilities */
 
 /* #region Header */
