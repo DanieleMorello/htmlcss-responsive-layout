@@ -1,0 +1,32 @@
+/* #region Common */
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary: #9792e4;
+  --secondary: #0084fd;
+  --tertiary: #b5ddff;
+  --orange: #fdc15f;
+  --dark: #333333;
+  --light: #ffffff;
+} 
+/* #endregion Common */
+
+/* #region Utilities */
+/* #endregion Utilities */
+
+/* #region Header */
+/* #endregion Header */
+
+/* #region Main */
+/* #endregion Main */
+
+/* #region Footer */
+/* #endregion Footer */
+
+/* #region Media query */
+/* #endregion Media query */
