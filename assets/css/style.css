@@ -34,6 +34,21 @@ img {
   text-align: center;
 }
 
+.d_flex
+{
+  display: flex;
+}
+
+.justify_content_center
+{
+  justify-content: center;
+}
+
+.align_items_center
+{
+  align-items: center;
+}
+
 .container 
 {
   width: 85%;
@@ -42,7 +57,6 @@ img {
 }
 
 .card {
-  background-color: var(--tertiary);
   border-radius: .5rem;
   margin: 2rem 0;
   padding: 0 2rem;
@@ -93,6 +107,24 @@ img {
 {
   background-color: var(--secondary);
   
+}
+
+.circle 
+{
+  width: 2rem;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+}
+
+.violet
+{
+  background-color: var(--primary);
+}
+
+.card_light
+{
+  background-color: var(--light);
+  color: var(--dark);
 }
 
 .blue
@@ -223,6 +255,11 @@ img {
   margin: 2rem;
 }
 
+#demo .card
+{
+  background-color: var(--tertiary);
+}
+
 #demo .card div a 
 {
   color: var(--light);
@@ -244,6 +281,7 @@ img {
 #planning
 {
   background-color: var(--primary);
+  color: var(--light);
   margin-top: 3rem;
 }
 
@@ -251,6 +289,17 @@ img {
   margin-top: 3rem;
 }
 
+#planning .card h2 {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+#div_circle {
+  margin: 2rem auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* Testimonials */
 #testimonials > strong
 {
