@@ -129,6 +129,9 @@ img {
 {
   background-color: var(--light);
   color: var(--dark);
+  padding-bottom: 1rem;
+  margin-top: 0rem;
+  padding-top: 2rem;
 }
 
 .blue
@@ -362,6 +365,7 @@ img {
 #benefit h3 
 {
   font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 #benefit h3, #benefit h4
@@ -392,9 +396,9 @@ img {
 }
 
 /* About */
-#about h2
+#about h2, #about img
 {
-  padding: 2rem 0;
+  margin: 3rem 0;
 }
 
 #about h2, #about strong
@@ -426,6 +430,40 @@ img {
 
 h1{
   color: var(--orange);
+  margin-bottom: 2rem;
+}
+
+#price h2
+{
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+} 
+
+#price h4 
+{
+  font-size: 0.5rem;
+  color: var(--light_gray);
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+#price p
+{
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  font-size: 0.85rem
+}
+
+#button
+{
+  width: 70%;
+  margin: 1.5rem auto;
+}
+
+#price a {
+  text-decoration: none;
+  color: var(--primary);
+  font-weight: bold;
 }
 /* #endregion Main */
 
@@ -437,10 +475,10 @@ h1{
 
 #site_footer p
 {
-   margin: 2rem 0;
-    text-align: center;
-    font-size: 0.8rem;
-    line-height: 1.25rem;
+  margin: 2rem 0;
+  text-align: center;
+  font-size: 0.8rem;
+  line-height: 1.25rem;
 }
    
 #site_footer ins
@@ -493,6 +531,10 @@ h1{
   width: 70%;
 }
 
+img
+{
+  width: 60%;
+}
 .col_lg_4 
 {
   width: calc(100% / 12 * 4);
@@ -503,7 +545,6 @@ h1{
   width: calc(100% / 12 * 6);
 }
 
- 
 #site_header nav ul 
 {
   display: flex;
