@@ -421,6 +421,11 @@ img {
 #price
 {
   background-color: var(--primary);
+  color: var(--light);
+}
+
+h1{
+  color: var(--orange);
 }
 /* #endregion Main */
 
@@ -428,6 +433,19 @@ img {
 #site_footer {
   background-color: var(--dark);
   color: var(--light);
+}
+
+#site_footer p
+{
+   margin: 2rem 0;
+    text-align: center;
+    font-size: 0.8rem;
+    line-height: 1.25rem;
+}
+   
+#site_footer ins
+{
+  color: var(--primary);
 }
 /* #endregion Footer */
 
