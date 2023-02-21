@@ -23,6 +23,9 @@ body
   font-family: 'PT Sans', sans-serif;
 }
 
+img {
+  max-width: 100%;
+}
 /* #endregion Common */
 
 /* #region Utilities */
@@ -38,17 +41,24 @@ body
   margin: auto;
 }
 
+.card {
+  background-color: var(--tertiary);
+  border-radius: .5rem;
+  margin: 2rem 0;
+  padding: 0 2rem;
+}
+
 .row 
 {
   display: flex;
   flex-wrap: wrap;
-  /* margin: 0 -1rem; */
+  margin: 0 -1rem;
 }
 
-/* [class^="col_"]
+[class^="col_"]
 {
   padding: 0 1rem;
-} */
+}
 
 .col_4
 {
@@ -69,10 +79,20 @@ body
 }
 
 .btn {
-  background-color: var(--light);
-  color: var(--dark) !important;
   border-radius: 1rem;
   padding: 0.4rem;
+}
+
+.btn_primary
+{
+  background-color: var(--light);
+  color: var(--dark) !important;
+}
+
+.btn_secondary 
+{
+  background-color: var(--secondary);
+  
 }
 /* #endregion Utilities */
 
@@ -182,9 +202,20 @@ body
 
 /* #region Main */
 /* Demo */
-#demo .col_12 */
-{
-  margin: 1rem;
+#demo .card h2 {
+  font-size: 1.4rem;
+  color: var(--secondary);
+  margin: 2rem 0;
+}
+
+#demo .card div {
+  margin: 2rem;
+  
+}
+
+#demo .card div a {
+  color: var(--light);
+  text-decoration: none;
 }
 
 /* Planning */
