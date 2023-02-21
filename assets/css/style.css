@@ -5,7 +5,7 @@
   padding: 0;
   box-sizing: border-box;
 /* Da decommentare sotto quando il l layout */
-  border: 1px dashed red;
+  /* border: 1px dashed red; */
 }
 
 :root 
@@ -16,6 +16,7 @@
   --orange: #fdc15f;
   --dark: #333333;
   --light: #ffffff;
+  --light_gray: #d8d8d8;
 } 
 
 body
@@ -108,6 +109,11 @@ img {
   background-color: var(--secondary);
 }
 
+.btn_tertiary
+{
+  background-color: var(--primary);
+}
+
 .circle 
 {
   aspect-ratio: 1 / 1;
@@ -171,7 +177,7 @@ img {
   height: 400px;
 }
 
-.debug #benefit .col_12, #benefit .col_md_6, #benefit .col_lg_4
+.debug #benefit .col_12, .debug #benefit .col_md_6, .debug #benefit .col_lg_4
 {
   border: 1px dashed black;
   height: 400px;
@@ -235,7 +241,6 @@ img {
 {
   text-decoration: none;
 }
-
 
 #navigator 
 {
@@ -306,7 +311,7 @@ img {
 }
 /* #endregion Planning */
 
-/* Testimonials */
+/* #region Testimonials */
 #testimonials .card 
 {
   flex-direction: column;
@@ -339,15 +344,79 @@ img {
   font-size: 1rem;
   line-height: 2rem;
 }
+/* #endregion Testimonials */
 
 /* Benefit */
 #benefit {
   background-color: var(--primary);
 }
 
+
+#benefit h2
+{
+  color: var(--light);
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+#benefit h3 
+{
+  font-size: 3rem;
+}
+
+#benefit h3, #benefit h4
+{
+  color: var(--primary);
+}
+
+#benefit p
+{
+  color: var(--light_gray);
+  line-height: 1.5rem;
+  font-size: 0.7rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-right: 1rem;
+}
+
+#benefit .btn
+{
+  margin-bottom: 2rem;
+  width: 60%;
+}
+
+#benefit a
+{
+  color: var(--light);
+  text-decoration: none;
+}
+
 /* About */
+#about h2
+{
+  padding: 2rem 0;
+}
 
+#about h2, #about strong
+{
+  color: var(--primary);
+}
 
+#about p 
+{
+  line-height: 2;
+}
+
+/* #about strong
+{
+  margin: 2rem 0;
+} */
+
+#about a
+{
+  text-decoration: none;
+  color: var(--light);
+}
 /* Price */
 #price
 {
