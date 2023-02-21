@@ -106,12 +106,10 @@ img {
 .btn_secondary 
 {
   background-color: var(--secondary);
-  
 }
 
 .circle 
 {
-  width: 2rem;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
 }
@@ -300,6 +298,7 @@ img {
 }
 
 #div_circle {
+  width: 2rem;
   margin: 2rem auto;
   display: flex;
   justify-content: center;
@@ -308,10 +307,23 @@ img {
 /* #endregion Planning */
 
 /* Testimonials */
-#testimonials > strong
+#testimonials .card 
 {
-  margin-top: 1rem;
-  font-size: 0.6rem;
+  flex-direction: column;
+  color: var(--light);
+  padding: 1rem;
+}
+
+#testimonials img 
+{
+  margin: 1rem 0;
+}
+
+#testimonials strong
+{
+  margin-top: 2rem;
+  font-size: 1rem;
+  padding-bottom: 1rem;
 }
 
 #testimonials  h2
@@ -322,9 +334,10 @@ img {
   margin-bottom: 2rem;
 }
 
-#testimonials p
+#testimonials span
 {
   font-size: 1rem;
+  line-height: 2rem;
 }
 
 /* Benefit */
