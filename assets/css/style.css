@@ -207,6 +207,10 @@ img {
   left: 0;
 }
 
+#site_header .row:not() {
+  margin: 0 -1rem;
+}
+
 #site_header,
 #site_header nav ul li a
 {
@@ -277,6 +281,7 @@ img {
 }
 /* #endregion Demo */
 
+/* #region Planning */
 /* Planning */
 #planning
 {
@@ -300,6 +305,8 @@ img {
   justify-content: center;
   align-items: center;
 }
+/* #endregion Planning */
+
 /* Testimonials */
 #testimonials > strong
 {
