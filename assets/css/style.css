@@ -94,6 +94,16 @@ img {
   background-color: var(--secondary);
   
 }
+
+.blue
+{
+  color: var(--secondary);
+}
+
+.mb_2
+{
+  margin-bottom: 2rem;
+}
 /* #endregion Utilities */
 
 /* #region Debug */
@@ -201,8 +211,9 @@ img {
 /* #endregion Header */
 
 /* #region Main */
-/* Demo */
-#demo .card h2 {
+/* #region Demo */
+#demo .card h2 
+{
   font-size: 1.4rem;
   color: var(--secondary);
   margin: 2rem 0;
@@ -210,16 +221,28 @@ img {
 
 #demo .card div {
   margin: 2rem;
-  
 }
 
-#demo .card div a {
+#demo .card div a 
+{
   color: var(--light);
   text-decoration: none;
 }
 
+.demo i 
+{
+  margin-top: 2rem;
+}
+
+.demo .card p
+{
+  margin-bottom: 2rem;
+}
+/* #endregion Demo */
+
 /* Planning */
-#planning {
+#planning
+{
   background-color: var(--primary);
   margin-top: 3rem;
 }
