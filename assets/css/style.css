@@ -4,6 +4,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+/* Da decommentare sotto quando il l layout */
+  border: 1px dashed red;
 }
 
 :root 
@@ -40,13 +42,13 @@ body
 {
   display: flex;
   flex-wrap: wrap;
-  margin: 0 -1rem;
+  /* margin: 0 -1rem; */
 }
 
-[class^="col_"]
+/* [class^="col_"]
 {
   padding: 0 1rem;
-}
+} */
 
 .col_4
 {
@@ -64,6 +66,13 @@ body
 .col_12
 {
   width: 100%;
+}
+
+.btn {
+  background-color: var(--light);
+  color: var(--dark) !important;
+  border-radius: 1rem;
+  padding: 0.4rem;
 }
 /* #endregion Utilities */
 
@@ -131,9 +140,40 @@ body
 #site_header
 {
   background-color: var(--secondary);
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
-#bars 
+#site_header,
+#site_header nav ul li a
+{
+  color: var(--light);
+}
+
+#site_header img, #site_header i,
+#site_header nav ul 
+{
+  align-items: center;
+  display: flex;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+#site_header nav ul 
+{
+  display: none;
+  list-style: none;
+  gap: .5rem;
+}
+
+#site_header nav ul li a
+{
+  text-decoration: none;
+}
+
+
+#navigator 
 {
   display: flex;
   justify-content: flex-end;
@@ -253,8 +293,15 @@ body
   width: calc(100% / 12 * 6);
 }
 
-#bars {
+ 
+#site_header nav ul 
+{
+  display: flex;
+}
+
+#site_header i {
   display: none;
 }
+
 }
 /* #endregion Media query */
