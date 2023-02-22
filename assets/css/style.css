@@ -535,6 +535,23 @@ h1{
 #planning {
   margin-top: 4rem;
 }
+
+.photo
+{
+  display: flex;
+}
+
+#testimonials img 
+{
+  width: 20%;
+}
+
+#testimonials span 
+{
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
+
 }
 
 /* Desktop */
@@ -583,5 +600,6 @@ img
   margin-left: 2rem;
   margin-top: 3rem;
 }
+
 }
 /* #endregion Media query */
