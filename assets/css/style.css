@@ -559,6 +559,11 @@ h1{
   margin-top: 3rem;
 }
 
+#button 
+{
+  width: 25%;
+}
+
 }
 
 /* Desktop */
