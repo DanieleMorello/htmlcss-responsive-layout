@@ -58,6 +58,7 @@ img {
 }
 
 .card {
+  display: block;
   border-radius: .5rem;
   margin: 2rem 0;
   padding: 0 2rem;
@@ -212,6 +213,8 @@ img {
   position: sticky;
   top: 0;
   left: 0;
+  z-index: 1111;
+  width: 100%;
 }
 
 #site_header .row:not() {
@@ -315,11 +318,17 @@ img {
 /* #endregion Planning */
 
 /* #region Testimonials */
+#testimonials
+{
+  display: block;
+}
+
 #testimonials .card 
 {
   flex-direction: column;
   color: var(--light);
   padding: 1rem;
+  border-radius: 2rem;
 }
 
 #testimonials img 
@@ -550,9 +559,25 @@ img
   display: flex;
 }
 
-#site_header i {
+#site_header i 
+{
   display: none;
 }
 
+.photo
+{
+  display: flex;
+}
+
+#testimonials img 
+{
+  width: 20%;
+}
+
+#testimonials span 
+{
+  margin-left: 2rem;
+  margin-top: 3rem;
+}
 }
 /* #endregion Media query */
