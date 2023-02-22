@@ -532,7 +532,14 @@ h1{
   margin-top: 2rem;
 }
 
-#planning {
+#demo .card 
+{
+  padding-bottom: 0rem;
+  min-height: 92%;
+}
+
+#planning 
+{
   margin-top: 4rem;
 }
 
