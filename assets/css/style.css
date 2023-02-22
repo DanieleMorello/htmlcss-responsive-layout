@@ -271,6 +271,8 @@ img {
 #demo .card
 {
   background-color: var(--tertiary);
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 #demo .card div a 
@@ -465,8 +467,10 @@ h1{
 
 #button
 {
-  width: 70%;
+  width: 17%;
   margin: 1.5rem auto;
+  padding: 1rem;
+  border-radius: 2rem;
 }
 
 #price a {
