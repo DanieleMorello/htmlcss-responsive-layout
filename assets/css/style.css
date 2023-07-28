@@ -195,6 +195,11 @@ img {
   z-index: 1111;
   width: 100%;
   box-shadow: 0 1px 5px 0 var(--dark);
+  padding: 15px 0;
+}
+
+#site_header img {
+  width: 80px;
 }
 
 #site_header .row:not() {
