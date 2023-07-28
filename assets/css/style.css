@@ -3,8 +3,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* Da decommentare sotto quando il l layout */
-  /* border: 1px dashed red; */
 }
 
 :root {
@@ -223,7 +221,7 @@ img {
 #site_header nav ul {
   display: none;
   list-style: none;
-  gap: 0.5rem;
+  gap: 1.5rem;
 }
 
 #site_header nav ul li a {
@@ -233,6 +231,14 @@ img {
 #navigator {
   display: flex;
   justify-content: flex-end;
+}
+
+#navigator li:hover {
+  transform: scale(1.2);
+}
+
+#navigator a:hover {
+  filter: brightness(0.85);
 }
 /* #endregion Header */
 
